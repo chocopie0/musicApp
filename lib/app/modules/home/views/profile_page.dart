@@ -15,6 +15,7 @@ class ProfileController extends GetxController {
   }
 }
 
+
 class ProfilePage extends StatelessWidget {
   final ProfileController profileController = Get.put(ProfileController());
 
@@ -65,7 +66,7 @@ class ProfilePage extends StatelessWidget {
               child: Text('Change Photo', style: TextStyle(fontSize: 16)),
             ),
             SizedBox(height: 20),
-            Divider(color: Colors.grey),
+            Divider(color: Colors.white),
             ListTile(
               title: Text(
                 'Redeem Gift Card or Code',
